@@ -15,29 +15,30 @@ function App() {
         {/* sidebar wil remain stationary */}
 
         <div className="app__sidebar">
-          <IconButton>
-              <HomeIcon/>
-          </IconButton>
+            <div>            
+                <HomeIcon/>
+            </div> 
+            
+            <div>  
+                <ExitToAppIcon/>
+            </div>
 
-          <IconButton>
-              <ExitToAppIcon/>
-          </IconButton>
+             <div>  
+                <PeopleIcon/>  
+            </div>
 
-          <IconButton>
-              <PeopleIcon/> 
-          </IconButton>
+             <div>     
+                <AssessmentIcon/>
+            </div>
 
-          <IconButton>
-              <AssessmentIcon/>
-          </IconButton>
+             <div>   
+                <ChatIcon/>               
+            </div>
 
-          <IconButton>
-              <ChatIcon/>
-          </IconButton>
-
-          <IconButton>
+            <div>       
               <SettingsIcon className="settings"/>
-          </IconButton>
+            </div> 
+         
         </div>
         <User />
         

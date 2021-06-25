@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 import {Button,IconButton} from '@material-ui/core';
 import Stats from './Stats.js';
 import Report from './Report';
-import VerticalBar from './Verticalbar';
-import PieChart from './Pie.js'
+import PieChart from './Pie.js';
 import Stats2 from './Stats2';
+import AreaRechartComponent from './Areachart.js';
 // icons
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
@@ -55,7 +55,10 @@ function User() {
                     </div>
                     <div className="progress__2">
                         <div className="chart">
-                            <VerticalBar/>
+                            <div className="chart-div">
+
+                            </div>
+                            <AreaRechartComponent/>
                         </div>
                         <Report/>    
                     </div>
