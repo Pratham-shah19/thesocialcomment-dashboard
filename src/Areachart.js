@@ -5,27 +5,27 @@ class AreaRechartComponent extends React.Component {
 
     data = [
         {
-            "name": "Jan 2019",
+            "name": "Jan",
             "Product A": 3432,
             "Procuct B": 2342
         },
         {
-            "name": "Feb 2019",
+            "name": "Feb",
             "Product A": 2342,
             "Procuct B": 3246
         },
         {
-            "name": "Mar 2019",
+            "name": "Mar",
             "Product A": 4565,
             "Procuct B": 4556
         },
         {
-            "name": "Apr 2019",
+            "name": "Apr",
             "Product A": 6654,
             "Procuct B": 4465
         },
         {
-            "name": "May 2019",
+            "name": "May",
             "Product A": 8765,
             "Procuct B": 4553
         }

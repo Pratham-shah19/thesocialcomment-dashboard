@@ -1,6 +1,5 @@
 import './App.css';
 import User from './User';
-import { IconButton } from '@material-ui/core';
 import SettingsIcon from '@material-ui/icons/Settings';
 import HomeIcon from '@material-ui/icons/Home';
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
@@ -15,10 +14,12 @@ function App() {
         {/* sidebar wil remain stationary */}
 
         <div className="app__sidebar">
+            <img src="https://media-exp1.licdn.com/dms/image/C510BAQFpSm4EA9m6Cg/company-logo_200_200/0/1574772986100?e=2159024400&v=beta&t=9jRbeSoREUQABN78ORqOizmdxzK_bjx2mAsqn-ckmOo" className="Logo"/>
+
             <div>            
                 <HomeIcon/>
             </div> 
-            
+
             <div>  
                 <ExitToAppIcon/>
             </div>

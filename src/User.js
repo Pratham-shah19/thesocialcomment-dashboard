@@ -13,6 +13,7 @@ import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
 import CallIcon from '@material-ui/icons/Call';
 import SearchIcon from '@material-ui/icons/Search';
 import MailIcon from '@material-ui/icons/Mail';
+import MoreVertIcon from '@material-ui/icons/MoreVert';
 import './User.css';
 
 function User() {
@@ -56,7 +57,11 @@ function User() {
                     <div className="progress__2">
                         <div className="chart">
                             <div className="chart-div">
-
+                                <p className="chart-header">Applications received</p>
+                                <p>This year</p>
+                                <p>This week</p>
+                                <p>This today</p>
+                                <MoreVertIcon/>
                             </div>
                             <AreaRechartComponent/>
                         </div>

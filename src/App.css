@@ -26,12 +26,20 @@ body{
   padding: 0.75rem;
 }
 
-.app__sidebar :nth-child(6){
+.app__sidebar :nth-child(7){
   margin-top: auto;
 }
 .app__sidebar div{
   width:30px;
   height: 30px;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Logo{
+  width: 30px;
+  border-radius: 20px;
 }
 
 /* material ui icons css */

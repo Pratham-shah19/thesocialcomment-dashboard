@@ -4,22 +4,22 @@ import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 
 
 const data = {
-  labels: ['Red', 'Blue', 'Yellow'],
+  
   datasets: [
     {
-      label: '# of Votes',
-      data: [12, 19, 3],
+     
+      data: [19,13,4],
       backgroundColor: [
-        'rgba(255, 99, 132, 0.2)',
-        'rgba(54, 162, 235, 0.2)',
-        'rgba(255, 206, 86, 0.2)',
+        '#82ca9d',
+        'rgb(220, 0, 78)',
+        '#3f39b5'
         
       ],
       borderColor: [
-        'rgba(255, 99, 132, 1)',
-        'rgba(54, 162, 235, 1)',
-        'rgba(255, 206, 86, 1)',
-        
+        '#82ca9d',
+        'rgb(220, 0, 78)',
+        '#3f39b5'
+          
       ],
       borderWidth: 1,
     },
